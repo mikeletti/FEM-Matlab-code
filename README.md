@@ -1,0 +1,4 @@
+I have developed a Matlab code to show how the numerical simulation of typical problems found in Scientific Computing can be run efficiently even under the serial Matlab environment. 
+This is made possible by a strong employment of vectorization and sparse matrix manipulation. Numerical examples based on FEMs on 2D unstructured triangular grids assess the flexibility and efficiency of the simulation tool, both on simple elliptic
+problems as well as on the steady and unsteady incompressible Navier-Stokes equations. Any type of finite elements, and 1D and 2D quadrature rules can be easily accommodated within our framework. 
+An extension to the Poisson problem in 3D is also presented. Emphasis is focused on vectorization programming and sparse matrix storage and operations, which allow one to obtain very efficient programs which run in a few minutes on a common notebook.
